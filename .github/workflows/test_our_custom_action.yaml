@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Get Pokemon name
-          uses: ./ # Uses an action in the root directory
+        uses: ./ # Uses an action in the root directory
         id: pokemon
         with:
           pokemon_id: 150
