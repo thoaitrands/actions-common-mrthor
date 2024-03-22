@@ -3,7 +3,7 @@ name: 'Action Common Github Action'
 description: 'Call an API and get the result'
 inputs:
   pokemon_id:
-    description: 'number of the pokemon in the pokedex'
+    description: 'number of the pokemon in the pokedex --testing'
     required: true
     default: 1
 outputs:
